@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: falsycat
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -9,21 +9,24 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
-enableGitHubEdit: true
+enableRecentNotes: true
+enableGitHubEdit: false
 enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/falsycat/ar.falsy.cat/tree/hugo/content
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  ブログ兼備忘録
 page_title:
-  "🪴 Quartz 3.3"
+  "ar.falsy.cat"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
+  - link_name: Portfolio
+    link: https://falsy.cat/
+  - link_name: Fediverse
+    link: https://falsy.cat/admin
   - link_name: GitHub
-    link: https://github.com/jackyzha0
+    link: https://github.com/falsycat
+  - link_name: YouTube
+    link: https://youtube.com/@falsycat

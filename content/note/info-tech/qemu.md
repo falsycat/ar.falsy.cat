@@ -1,6 +1,6 @@
 ---
 title: qemu
-tags: [computer, virtualization]
+tags: [note, info-tech, tool, virtualization]
 ---
 
 - 個人的に，qemuはコマンドラインベースのVirtualBoxと思っている

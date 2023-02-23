@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HOME on</title><link>https://ar.falsy.cat/</link><description>Recent content in HOME on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ar.falsy.cat/index.xml" rel="self" type="application/rss+xml"/><item><title>qemu</title><link>https://ar.falsy.cat/note/computer/qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/computer/qemu/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HOME on</title><link>https://ar.falsy.cat/</link><description>Recent content in HOME on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ar.falsy.cat/index.xml" rel="self" type="application/rss+xml"/><item><title>ObsidianとQuartzによるセカンドブレインデジタルガーデンの構築</title><link>https://ar.falsy.cat/note/info-tech/publish-obsidian-by-quartz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/info-tech/publish-obsidian-by-quartz/</guid><description>&lt;h2 id="概要">概要&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jackyzha0/quartz" rel="noopener">Quartz&lt;/a>で
+&lt;a
+href="https://ar.falsy.cat/note/info-tech/obsidian/"
+rel="noopener" class="internal-link"
+data-src="https://ar.falsy.cat/note/info-tech/obsidian/">Obsidian&lt;/a>のVaultを公開する&lt;/li>
+&lt;li>「&lt;em>セカンドブレインデジタルガーデン&lt;/em>」という御大層な言葉は
+&lt;a href="https://github.com/jackyzha0/quartz" rel="noopener">Quartz&lt;/a>の紹介文からの引用&lt;/li>
+&lt;/ul></description></item><item><title>Obsidianについて</title><link>https://ar.falsy.cat/note/info-tech/obsidian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/info-tech/obsidian/</guid><description>公式サイト
+概要 オフラインのwikiっぽいもの(=Vault) 記法はmarkdown Vaultは全てローカルに保存される インストール 公式サイトに各OSのインストーラが揃ってる Macではbrew install obsidianができる いいところ シンプルでスタイリッシュなデザイン 完全ローカルなので高セキュリティ 数式が使える $E=mc^2$ わるいところ 完全ローカルなので同期が課題 Vaultが巨大になるほど同期コストも増加 Macにて，エディタ上のリアルタイムプレビューとIMEが競合して日本語が正常に入力できないことがある 所感 ar.</description></item><item><title>qemu</title><link>https://ar.falsy.cat/note/info-tech/qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/info-tech/qemu/</guid><description>&lt;ul>
 &lt;li>個人的に，qemuはコマンドラインベースのVirtualBoxと思っている&lt;/li>
 &lt;li>今のところM2チップのMacbook ProでLinuxを使うための最善手
 &lt;ul>

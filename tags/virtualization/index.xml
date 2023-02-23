@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>virtualization on</title><link>https://ar.falsy.cat/tags/virtualization/</link><description>Recent content in virtualization on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ar.falsy.cat/tags/virtualization/index.xml" rel="self" type="application/rss+xml"/><item><title>qemuについて</title><link>https://ar.falsy.cat/note/qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/qemu/</guid><description>qemuについて 個人的に，qemuはコマンドラインベースのVirtualBoxと思っている 今のところM2チップのMacbook ProでLinuxを使うための最善手 M1/M2向けVirtualBoxはまだ開発者プレビューしかなく，まともに使えなかった インストール Mac 1 $ brew install qemu ハードウェアアクセラレーションが有効化されている他のビルドもあるらしいが未検証 今後GPU使いたくなったら検証予定 コマンド逆引き archのlive cdを起動 1 2 3 qemu-system-x86_64 \ -m 4G \ -cdrom .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>virtualization on</title><link>https://ar.falsy.cat/tags/virtualization/</link><description>Recent content in virtualization on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ar.falsy.cat/tags/virtualization/index.xml" rel="self" type="application/rss+xml"/><item><title>qemuについて</title><link>https://ar.falsy.cat/note/qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/qemu/</guid><description>&lt;h1 id="qemuについて">qemuについて&lt;/h1>
+&lt;ul>
+&lt;li>個人的に，qemuはコマンドラインベースのVirtualBoxと思っている&lt;/li>
+&lt;li>今のところM2チップのMacbook ProでLinuxを使うための最善手
+&lt;ul>
+&lt;li>M1/M2向けVirtualBoxはまだ開発者プレビューしかなく，まともに使えなかった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

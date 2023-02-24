@@ -21,15 +21,16 @@ $ brew install qemu
 
 ## コマンド逆引き
 
+### ディスクイメージ作成
+```bash
+qemu-img create -f qcow2 sda.qcow2 16G
+```
+
 ### archのlive cdを起動
 ```bash
 qemu-system-x86_64 \
   -m 4G  \
-  -cdrom ../iso/archlinux-2023.02.01-x86_64.iso
+  -cdrom ../iso/archlinux-2023.02.01-x86_64.iso  \
+  sda.qcow2
 ```
-
-## オプション一覧
-```
--m 4G         # メモリサイズ指定
--cdrom a.iso  # ISOファイル指定
-```
+- [関連: ArchLinuxのインストール方法](note/info-tech/install-archlinux.md)

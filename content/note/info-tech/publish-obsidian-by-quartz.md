@@ -29,8 +29,13 @@ tags: [note, info-tech, web]
 3. pushする
 
 ## ローカルプレビュー
-- まだ[qemu](note/info-tech/qemu.md)上のマシンへのOSインストール作業ができていないので，また今度試す
-- なるべくホストマシンは汚したくない(切実)
+- dockerがあれば，リポジトリrootで`make docker`すれば`localhost:1313`にアクセスできる
+- `Makefile`の`docker`ターゲットのコマンドを下のように置き換えることで次の問題が解決できる
+	- Ctrl+Cでサーバーが終了しない
+	- `make docker`する度にゴミコンテナが残る
+```bash
+docker run -it --init --name quartz-preview --volume=$(shell pwd):/quartz -p 1313:1313 ghcr.io/jackyzha0/quartz:hugo; docker rm quartz-preview
+```
 
 ## カスタマイズ
 

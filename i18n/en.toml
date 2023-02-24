@@ -52,6 +52,9 @@ other = "Icon to open search"
 [recent_notes]
 other = "Recent Notes"
 
+[related_notes]
+other = "Related Notes"
+
 [first_3_notes]
 other = "first 3 {{ .notes }}"
 

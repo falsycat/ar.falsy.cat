@@ -1,0 +1,5 @@
+<div class="content-list">
+  <h2>{{ i18n "related_notes" }}</h2>
+  {{$notes := .Site.RegularPages.Related .}}
+  {{partial "page-list.html" (first 3 $notes)}}
+</div>

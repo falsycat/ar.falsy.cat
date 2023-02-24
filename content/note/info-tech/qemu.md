@@ -1,9 +1,10 @@
 ---
-title: qemu
+title: qemuについて
 tags: [note, info-tech, tool, virtualization]
 ---
 
-- 個人的に，qemuはコマンドラインベースのVirtualBoxと思っている
+## 概要
+- コマンドラインベースのVirtualBoxと思っている
 - 今のところM2チップのMacbook ProでLinuxを使うための最善手
 	- M1/M2向けVirtualBoxはまだ開発者プレビューしかなく，まともに使えなかった
 

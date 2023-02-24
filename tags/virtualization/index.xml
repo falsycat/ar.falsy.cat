@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>virtualization on</title><link>https://ar.falsy.cat/tags/virtualization/</link><description>Recent content in virtualization on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ar.falsy.cat/tags/virtualization/index.xml" rel="self" type="application/rss+xml"/><item><title>qemu</title><link>https://ar.falsy.cat/note/info-tech/qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/info-tech/qemu/</guid><description>&lt;ul>
-&lt;li>個人的に，qemuはコマンドラインベースのVirtualBoxと思っている&lt;/li>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>virtualization on</title><link>https://ar.falsy.cat/tags/virtualization/</link><description>Recent content in virtualization on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://ar.falsy.cat/tags/virtualization/index.xml" rel="self" type="application/rss+xml"/><item><title>qemuについて</title><link>https://ar.falsy.cat/note/info-tech/qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ar.falsy.cat/note/info-tech/qemu/</guid><description>&lt;h2 id="概要">概要&lt;/h2>
+&lt;ul>
+&lt;li>コマンドラインベースのVirtualBoxと思っている&lt;/li>
 &lt;li>今のところM2チップのMacbook ProでLinuxを使うための最善手
 &lt;ul>
 &lt;li>M1/M2向けVirtualBoxはまだ開発者プレビューしかなく，まともに使えなかった&lt;/li>

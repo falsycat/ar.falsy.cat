@@ -1,6 +1,6 @@
 ---
 title: 国語教科書オールスターズ
-tags: [note, lifehack]
+tags: [note, word-play, lifehack]
 ---
 
 ## 概要

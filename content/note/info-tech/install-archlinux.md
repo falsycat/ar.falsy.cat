@@ -36,7 +36,7 @@ mount /dev/sda1 /mnt  # /mntへマウント
 ### 3. インストール
 ```bash
 vim /etc/pacman.d/mirrorlist                    # 日本のmirrorを指定しておく
-pacstrap -K /mnt base linux linux-firmware vim  # Wi-Fiで10分くらい
+pacstrap -K /mnt base linux linux-firmware vim grub dhcpcd  # Wi-Fiで10分くらい
 ```
 
 - 執筆時点で有効な日本のmirror
@@ -63,10 +63,10 @@ hwclock --systohc
 #### カスタマイズ
 - `/etc/hostname`にホスト名を設定
 - `passwd`でrootパスワードを設定
+- `systemctl enable dhcpcd`
 
 #### ブートローダのインストール
 ```bash
-pacman -S grub/
 grub-install --target=i386-pc /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 ```

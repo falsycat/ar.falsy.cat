@@ -1,5 +1,5 @@
 ---
-title: qemuについて
+title: qemu
 tags: [note, info-tech, tool, virtualization]
 ---
 
@@ -21,9 +21,20 @@ $ brew install qemu
 
 ## コマンド逆引き
 
-### ディスクイメージ作成
+### ディスクイメージの作成
 ```bash
 qemu-img create -f qcow2 sda.qcow2 16G
+```
+
+### ディスクイメージのリサイズ
+```bash
+# ホストOSで実行
+qemu-img resize sda.qcow2 +16G
+
+# ゲストで実行
+cfdisk /dev/sda  # いい感じに
+e2fsck -f /dev/sda2
+resize2fs /dev/sda2
 ```
 
 ### archのlive cdを起動

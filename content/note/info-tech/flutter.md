@@ -14,9 +14,12 @@ tags: [note, info-tech, development, software, library]
 
 - [install-archlinux](note/info-tech/install-archlinux.md)の直後から，`flutter doctor`がオールグリーンになるまで
 - 1時間ぐらいは覚悟したほうがいい
-- クソでかいので[qemu](note/info-tech/qemu)イメージのリサイズをする羽目になった
+- 特にandroid-studioがクソでかいので[qemu](note/info-tech/qemu)イメージのリサイズをする羽目になった
 - [参考文献](https://dev.to/nabbisen/flutter-3-on-arch-linux-shi-mefang-1m2j)
+- 追記: [qemu](note/info-tech/qemu)上だとパフォーマンスがゴミすぎてまともに使えなかった X(
+	- ハードウェアアクセラレーションとか頑張ればいけるのかもしれないけど，諦めてホストのMacbookに直接入れた
 
+#### 手順
 1. 依存のインストール
 ```bash
 pacman -S base-devel xorg-server xterm i3-wm noto-fonts git clang cmake ninja chromium
@@ -49,3 +52,8 @@ git config --global --add safe.directory /opt/flutter
 flutter doctor --android-licenses
 flutter doctor  # 完了
 ```
+
+
+## 感想
+- メジャーバージョンが同じでも後方互換性は乏しい
+	- 過去のプロジェクトをビルドしようとしてもよくわからないエラーが大量に出てくる

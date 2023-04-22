@@ -1,6 +1,6 @@
 ---
 title: 2人の幼女と悪魔とチェス盤
-tags: [note, info-tech, logical]
+tags: [note, word-play]
 ---
 
 ## 概要

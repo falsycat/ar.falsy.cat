@@ -4,7 +4,7 @@ tags: [note, study, statistics]
 ---
 
 ## 概要
-- 結論に複数の[仮設検定](note/study/statistics/hypothesis-test.md)の結果が影響している時，その結論は検定の多重性問題を孕んでいる可能性がある
+- 結論に複数の[仮説検定](note/study/statistics/hypothesis-test.md)の結果が影響している時，その結論は検定の多重性問題を孕んでいる可能性がある
 - 問題を回避するためには，Holm法などで有意水準を下げる必要があるが，完璧ではない
 
 ## 不確実な情報による結論の不確実性

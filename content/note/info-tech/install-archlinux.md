@@ -1,6 +1,6 @@
 ---
 title: ArchLinuxのインストール
-tags: [note, info-tech, linux]
+tags: [note, info-tech, linux, howto]
 ---
 
 ## 概要

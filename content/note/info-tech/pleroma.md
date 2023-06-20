@@ -1,6 +1,6 @@
 ---
 title: Pleroma
-tags: [note, info-tech, software, web, sns, fediverse]
+tags: [note, info-tech, web]
 ---
 
 ## 概要

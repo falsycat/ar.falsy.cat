@@ -27,6 +27,3 @@ tags: [note, info-tech, tool]
 ## 所感
 - ar.falsy.catの記事書くのに使っている
 - WebDAVなどのファイルサーバー上にあるVaultを，全体をダウンロードせずに開けるようになれば素晴らしい
-
-## 関連
-- [Vaultをweb公開する](note/info-tech/publish-obsidian-by-quartz.md)

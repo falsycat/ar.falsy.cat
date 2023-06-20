@@ -1,6 +1,6 @@
 ---
 title: ObsidianとQuartzによるセカンドブレインデジタルガーデンの構築
-tags: [note, info-tech, web]
+tags: [note, info-tech, web, tool, howto]
 ---
 
 ## 概要

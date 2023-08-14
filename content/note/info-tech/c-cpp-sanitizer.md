@@ -40,3 +40,5 @@ gcc -fsanitizer=XXX a.c
 			- 格好つけてロックフリーで書いたせい
 - `thread`が`address`や`undefined`と一緒に使えないのが痛い
 	- どちらともを使うには，`thread`でビルド，テストした後に，オプションを変えてビルドし直し，同じテストを実行しなければならない
+- 上に挙げた全てのsanitizerは，m2 macbookで使えなかった
+	- sanitizerの機能を含んだライブラリ(`libubsan`など)が無いと言われてリンクに失敗する
